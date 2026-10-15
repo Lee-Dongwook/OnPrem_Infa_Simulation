@@ -5,7 +5,7 @@ metadata:
   namespace: metallb-system
 spec:
   addresses:
-    - 192.168.64.100-192.168.64.150 # Multipass Virtual Network Bandwidth - IP Pool Configuration
+    - 192.168.252.100-192.168.252.150 # Multipass Virtual Network Bandwidth - IP Pool Configuration
 ---
 apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
