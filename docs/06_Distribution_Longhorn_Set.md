@@ -80,7 +80,7 @@ spec:
 ```
 
 ```bash
-multipass transfer manifests/03-storage/longhorn-test.yaml k8s-control-plane:/tmp/longhorn-test.yaml
+multipass transfer manifests/05-longhorn/longhorn-test.yaml k8s-control-plane:/tmp/longhorn-test.yaml
 kubectl apply -f /tmp/longhorn-test.yaml
 kubectl get pvc,pod
 ```
